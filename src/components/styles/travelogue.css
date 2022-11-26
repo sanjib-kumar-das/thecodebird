@@ -1,0 +1,50 @@
+#customRange3 {
+  width: 160%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap");
+
+body {
+  /* background-image: linear-gradient(to bottom right, #fc354c, #0abfbc); */
+  /* background-image: linear-gradient(to bottom right, #dae2f8, #d6a4a4); */
+  /* background-image: linear-gradient(to bottom right, #ed4264, #ffedbc); */
+  /* background-image: linear-gradient(to bottom right, #dc2424, #4a569d); */
+  /* background-image: linear-gradient(to bottom right, #134e5e, #71b280); */
+  /* background-image: linear-gradient(to bottom right, #16a085, #f4d03f); */
+  /* background-image: linear-gradient(to bottom right, #034a55, #8ecdff); */
+  /* background-color: #598ec2; */
+  /* background-image: linear-gradient(to bottom right, #013780, #68abe6); */
+  /* background-image: linear-gradient(to bottom right, #013780, #68abe6, #013780); */
+  /* background-image: linear-gradient(to bottom right, #c8d8ef, #e9eff8, #c8d8ef);
+  height: auto;
+  width: auto; */
+  /* background-image: url("../images/homebg.png"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.coin {
+  animation: neon 5s infinite;
+  color: white;
+}
+@keyframes neon {
+  0%,
+  39%,
+  41%,
+  59%,
+  61%,
+  100% {
+    shadow: white 0 0 12px, #ff3aad 0 0 24px, #ff3aad 0 0 36px;
+  }
+  40%,
+  60% {
+    shadow: none;
+  }
+}
+.coin {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
