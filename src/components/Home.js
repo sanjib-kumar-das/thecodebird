@@ -1,21 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import graphic from "./images/graphic.png";
+import graphic from "./images/anim3.gif";
 import "./styles/home.css";
+import Lottie from "lottie-react";
+import lottie from "./images/scan.json";
 
 export default function Home() {
   return (
     <>
-      <div className="container mt-3">
-        {/* <div className="">
+      {/* <div className="">
           <img className="graphic rounded img-fluid" src={graphic} alt="" />
         </div> */}
-      </div>
+
       <div className="main">
-        <div className="row">
+        <div className="row d-flex mx-auto">
           <div className="text col-sm-6 px-5">
             <div className="codebird">
-              <h1>
+              <h1 className="text-primary">
                 The <br /> CODEBIRD
               </h1>
             </div>
@@ -26,13 +27,22 @@ export default function Home() {
               impedit nobis. Doloremque corporis veritatis neque?
             </div>
             <Link to="contact" className="">
-              <button type="button" class="btn btn-primary btn-sm">
+              <button type="button" class="btn btn-info text-white btn-sm mb-5">
                 Contact Us
               </button>
             </Link>
           </div>
-          <div className="anim col-sm-6 img-fluid">
-            <img className="graphic rounded img-fluid" src={graphic} alt="" />
+          <div className="anim col-sm-6 img-fluid mx-auto d-flex">
+            <img
+              className="graphic rounded img-fluid mx-5"
+              src={graphic}
+              alt=""
+            />
+            {/* <Lottie
+              className="lottie d-flex mx-auto"
+              animationData={lottie}
+              background="transparent"
+            /> */}
           </div>
         </div>
       </div>
