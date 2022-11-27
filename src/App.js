@@ -12,8 +12,7 @@ import Error from "./components/Error";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Lottie from "lottie-react";
-
-import lottie from "./components/images/hand.json";
+import lottie from "./components/images/scan.json";
 // import GetLocation from "./components/GetLocation";
 // import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 

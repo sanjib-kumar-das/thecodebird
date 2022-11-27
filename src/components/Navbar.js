@@ -14,7 +14,7 @@ export default function Navbar() {
     : "Location data not availale yet";
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-gradient bg-light rounded shadow">
+      <nav className="navbar navbar-expand-lg navbar-light bg-gradient bg-white rounded ">
         <div className="container-fluid">
           <img className="mx-2" src={navpic} alt="" height="35" width="35" />
           <Link className="navbar-brand col-md-1 mx-1 text-center" to="/">
