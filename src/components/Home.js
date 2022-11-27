@@ -17,7 +17,10 @@ export default function Home() {
           <div className="text col-sm-6 px-5">
             <div className="codebird">
               <h1 className="text-primary">
-                The <br /> CODEBIRD
+                The <br />C<span className="text-warning">0</span>
+                DEB
+                <span className="text-warning">1</span>
+                RD
               </h1>
             </div>
             <div className="sub-text my-5">
@@ -26,11 +29,16 @@ export default function Home() {
               ipsa exercitationem asperiores voluptatum illum quasi id, sequi
               impedit nobis. Doloremque corporis veritatis neque?
             </div>
-            <Link to="contact" className="">
+            {/* <Link to="https://discord.gg/m6AMnhBXwn" className="">
               <button type="button" class="btn btn-info text-white btn-sm mb-5">
                 Contact Us
               </button>
-            </Link>
+            </Link> */}
+            <a href="https://discord.gg/m6AMnhBXwn" target="blank">
+              <button type="button" class="btn btn-info text-white btn-sm mb-5">
+                Join Our Community
+              </button>
+            </a>
           </div>
           <div className="anim col-sm-6 img-fluid mx-auto d-flex">
             <img

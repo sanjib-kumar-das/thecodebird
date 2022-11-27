@@ -18,3 +18,7 @@
   cursor: pointer;
   border-radius: 26px;
 }
+
+.text-primary {
+  font-family: "M PLUS Code Latin", sans-serif;
+}

@@ -5,7 +5,7 @@ import pic from "./images/pic.jpg";
 export default function About() {
   return (
     <>
-      <div className="container mt-3">
+      <div className="container mt-5">
         <div
           className="card mx-auto d-block text-center"
           style={{ width: "100%" }}
@@ -13,13 +13,13 @@ export default function About() {
           <div className="card-header"> &lt; We are The CODEBIRD &#47;&gt;</div>
           <img
             src={navpic}
-            className="card-img-top img-fluid mb-3 logo mx-auto d-block"
+            className="card-img-top img-fluid mt-3 mb-3 logo mx-auto d-block"
             alt="..."
-            style={{ height: "50%", width: "50%" }}
+            style={{ height: "30%", width: "30%" }}
           ></img>
           <div className="card-body">
             <h5 className="card-title">About Us</h5>
-            <p className="card-text">
+            <p className="card-text about">
               The Code Bird also referred to as "Code Bird" is the Coding Club
               of University Institute of Technology Burdwan. It is a student
               community aimed to foster coding culture existing inside
@@ -30,11 +30,15 @@ export default function About() {
               place where institute's Best Coders lead to create pathways for
               the UITians.
             </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
+            <a
+              href="https://discord.gg/m6AMnhBXwn"
+              target="blank"
+              className="btn btn-primary"
+            >
+              Join Our Community
             </a>
           </div>
-          <div className="card-footer text-muted">Since 2016</div>
+          <div className="card-footer text-muted">Since 2016 & Counting...</div>
         </div>
         {/* First Member */}
         <div className="accordion-item mt-5">
@@ -62,32 +66,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    style={{ width: "8rem" }}
-                    src={pic}
-                    alt="Baga Beach"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Vishal Kumar <span class="badge bg-primary"> IT </span>
-                    </h5>
-                    <p className="card-text text-truncate">2013-17</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: President</h6>
-
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop11"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -98,32 +88,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    alt="Madgaon"
-                    style={{ width: "8rem" }}
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Amit Kumar <span class="badge bg-primary"> CSE </span>
-                    </h5>
-                    <p className="card-text text-truncate">2014-18</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Core Committee Member</h6>
-
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop12"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -134,33 +110,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Abhishek Mishra{" "}
-                      <span class="badge bg-primary"> CSE </span>
-                    </h5>
-                    <p className="card-text text-truncate">2014-18</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Core Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -170,32 +131,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Kumar Saurav <span class="badge bg-primary"> CSE </span>
-                    </h5>
-                    <p className="card-text text-truncate">2015-19</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Core Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -204,33 +151,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Navneet Prashant{" "}
-                      <span class="badge bg-primary"> CSE </span>
-                    </h5>
-                    <p className="card-text text-truncate">2015-19</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Core Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -239,32 +171,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Ayush Kumar <span class="badge bg-primary"> CSE </span>
-                    </h5>
-                    <p className="card-text text-truncate">2015-19</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Core Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -274,32 +192,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Keshav Singh <span class="badge bg-primary"> IT </span>
-                    </h5>
-                    <p className="card-text text-truncate">2013-17</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Executive Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -308,33 +212,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Rahul Bhattacharjee{" "}
-                      <span class="badge bg-primary"> IT </span>
-                    </h5>
-                    <p className="card-text text-truncate">2014-18</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Executive Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -343,32 +232,18 @@ export default function About() {
               <div className="col-md-4 d-flex justify-content-around">
                 <div
                   className="card shadow"
-                  style={{ width: "18rem", height: "23rem" }}
+                  style={{ width: "18rem", height: "6rem" }}
                 >
-                  <img
-                    className="card-img-top skeleton img-fluid mx-auto mt-1 d-block rounded"
-                    src={navpic}
-                    style={{ width: "8rem" }}
-                    height={"100%"}
-                    alt="Panaji"
-                  />
                   <div className="card-body">
-                    <h5 className="card-title">
-                      Piyush Kumar <span class="badge bg-primary"> ECE </span>
-                    </h5>
-                    <p className="card-text text-truncate">2014-18</p>
-                    <hr className="dropdown-divider" />
-                    <h6>POSITION: Executive Committee Member</h6>
-                    <p>
-                      <button
-                        type="button"
-                        className="btn btn-primary mt-2 shadow"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop13"
-                      >
-                        Read More
-                      </button>
-                    </p>
+                    <figure>
+                      <blockquote class="blockquote">
+                        <p>Vishal Kumar</p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        President
+                        <cite title="Source Title">(IT 2013-17)</cite>
+                      </figcaption>
+                    </figure>
                   </div>
                   {/* btn */}
                 </div>
@@ -384,9 +259,9 @@ export default function About() {
               className="accordion-button"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapse1"
+              data-bs-target="#collapse2"
               aria-expanded="true"
-              aria-controls="collapse1"
+              aria-controls="collapse2"
             >
               <span>
                 #<strong>&nbsp; Current Team of The CODEBIRD</strong>
@@ -394,7 +269,7 @@ export default function About() {
             </button>
           </h2>
           <div
-            id="collapse1"
+            id="collapse2"
             className="accordion-collapse collapse show mb-5 mt-5"
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"

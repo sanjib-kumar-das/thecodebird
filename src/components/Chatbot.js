@@ -8,9 +8,9 @@ export default function Chatbot() {
       <div className="div">
         <div
           className="div"
-          data-bs-toggle="tooltip"
-          data-bs-placement="left"
-          title="YatraMon"
+          // data-bs-toggle="tooltip"
+          // data-bs-placement="left"
+          title="Buy me a coffee"
         >
           <a
             href="https://www.buymeacoffee.com/thecodebird"
@@ -26,9 +26,9 @@ export default function Chatbot() {
                 width: "10rem",
                 cursor: "pointer",
               }}
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"
+              // data-bs-toggle="offcanvas"
+              // data-bs-target="#offcanvasRight"
+              // aria-controls="offcanvasRight"
             />
           </a>
         </div>
