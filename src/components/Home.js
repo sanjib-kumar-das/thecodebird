@@ -35,8 +35,12 @@ export default function Home() {
               </button>
             </Link> */}
             <a href="https://discord.gg/m6AMnhBXwn" target="blank">
-              <button type="button" class="btn btn-info text-white btn-sm mb-5">
-                Join Our Community
+              <button
+                type="button"
+                class="btn btn-warning text-dark btn-sm mb-5"
+              >
+                <i className="fab fa-discord fa-flip text-light"></i> Join Our
+                Community
               </button>
             </a>
           </div>
