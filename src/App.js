@@ -10,6 +10,7 @@ import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import About from "./components/About";
+import Faq from "./components/Faq";
 import Contact from "./components/Contact";
 import Lottie from "lottie-react";
 import lottie from "./components/images/scan.json";
@@ -54,6 +55,7 @@ function App() {
               path="events"
               element={<Events key="events" />}
             ></Route>
+            <Route exact path="faq" element={<Faq key="faq" />}></Route>
             <Route
               exact
               path="contact"

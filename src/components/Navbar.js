@@ -64,6 +64,12 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
+                <Link className="nav-link" to="faq">
+                  <p className="text-center fw-bold">FAQs</p>
+                </Link>
+              </li>
+
+              <li className="nav-item">
                 <Link className="nav-link" to="contact">
                   <p className="text-center fw-bold">Contact Us</p>
                 </Link>

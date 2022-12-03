@@ -1,4 +1,4 @@
-import "./styles/travelogue.css";
+import "./styles/chatbot.css";
 import React from "react";
 import coffee from "./images/coffee.gif";
 

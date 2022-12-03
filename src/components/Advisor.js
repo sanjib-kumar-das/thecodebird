@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./styles/latestnews.css";
+import "./styles/advisor.css";
 import pic from "./images/sgp.png";
-import graphic from "./images/anim3.gif";
+import graphic from "./images/adv-anim.gif";
 import advisor from "./images/sgp.png";
 
 export default function Advisor() {
@@ -42,19 +42,30 @@ export default function Advisor() {
                 Contact Us
               </button>
             </Link> */}
-              <a href="https://discord.gg/m6AMnhBXwn" target="blank">
+              <a
+                href="https://www.linkedin.com/in/sumit-gupta-sgp-168109151/"
+                target="blank"
+              >
                 <button
                   type="button"
                   class="btn btn-warning text-dark btn-sm mb-5"
                 >
-                  <i className="fab fa-discord fa-flip text-light"></i> Join Our
-                  Community
+                  <i className="fab fa-linkedin fa-flip text-primary"></i>{" "}
+                  LinkedIn
+                </button>
+              </a>
+              <a href="https://www.facebook.com/SumitGupta.SGP" target="blank">
+                <button
+                  type="button"
+                  class="btn btn-warning text-dark btn-sm mb-5"
+                >
+                  <i className="fab fa-facebook fa-flip text-info"></i> Facebook
                 </button>
               </a>
             </div>
             <div className="anim col-sm-6 img-fluid mx-auto d-flex">
               <img
-                className="graphic rounded img-fluid mx-5"
+                className="graphic rounded img-fluid mx-auto d-flex"
                 src={graphic}
                 alt=""
               />

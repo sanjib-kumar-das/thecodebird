@@ -177,7 +177,7 @@ export default function Footer() {
                   ></label> */}
                     <div className="input-group">
                       <input
-                        type="email"
+                        type="emails"
                         placeholder="Email ID"
                         className="form-control"
                         id="validationDefaultMail"
@@ -210,9 +210,9 @@ export default function Footer() {
           </div>
         </section>
 
-        <div className="text-center p-3 bg-muted text-white">
+        <div className="text-center p-3 bg-muted text-secondary">
           © 2022 Copyright: &nbsp;
-          <a className="text-white" href="/">
+          <a className="text-secondary" href="/">
             The CODEBIRD
           </a>
         </div>

@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import graphic from "./images/anim3.gif";
+import graphic from "./images/anim5.gif";
 import "./styles/home.css";
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
 import Lottie from "lottie-react";
 import lottie from "./images/scan.json";
+import Testimonial from "./Testimonial";
 
 export default function Home() {
   return (
@@ -46,17 +49,15 @@ export default function Home() {
           </div>
           <div className="anim col-sm-6 img-fluid mx-auto d-flex">
             <img
-              className="graphic rounded img-fluid mx-5"
+              className="home-anim rounded img-fluid mx-auto d-flex"
               src={graphic}
               alt=""
             />
-            {/* <Lottie
-              className="lottie d-flex mx-auto"
-              animationData={lottie}
-              background="transparent"
-            /> */}
           </div>
         </div>
+
+        {/* TESTIMONIAL */}
+        <Testimonial></Testimonial>
       </div>
     </>
   );

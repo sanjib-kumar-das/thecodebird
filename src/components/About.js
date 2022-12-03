@@ -1,18 +1,19 @@
 import React from "react";
 import navpic from "./images/logo.png";
 import pic from "./images/pic.jpg";
-import graphic from "./images/anim3.gif";
+import graphic from "./images/about-anim.gif";
 import { Link } from "react-router-dom";
+import "./styles/about.css";
 
 export default function About() {
   return (
     <>
-      <div className="mt-5">
+      <div className="mt-1">
         <div className="main">
           <div className="row d-flex mx-auto">
             <div className="anim col-sm-6 img-fluid mx-auto d-flex">
               <img
-                className="graphic rounded img-fluid mx-5"
+                className="graphic rounded img-fluid mx-5 mx-auto d-flex "
                 src={graphic}
                 alt=""
               />
@@ -111,11 +112,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Amit Kumar</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Core Committee Member
+                          <cite title="Source Title">(CSE 2014-18)</cite>
                         </figcaption>
                       </figure>
                     </div>
@@ -133,11 +134,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Abhishek Mishra</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Core Committee Member
+                          <cite title="Source Title">(CSE 2014-18)</cite>
                         </figcaption>
                       </figure>
                     </div>
@@ -154,11 +155,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Kumar Saurav</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Core Committee Member
+                          <cite title="Source Title">(CSE 2015-19)</cite>
                         </figcaption>
                       </figure>
                     </div>
@@ -174,11 +175,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Navneet Prashant</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Core Committee Member
+                          <cite title="Source Title">(CSE 2015-19)</cite>
                         </figcaption>
                       </figure>
                     </div>
@@ -194,11 +195,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Ayush Kumar</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Core Committee Member
+                          <cite title="Source Title">(CSE 2015-19)</cite>
                         </figcaption>
                       </figure>
                     </div>
@@ -215,10 +216,10 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Keshav Singh</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
+                          Executive Committee Member
                           <cite title="Source Title">(IT 2013-17)</cite>
                         </figcaption>
                       </figure>
@@ -235,11 +236,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Rahul Bhattacharjee</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Executive Committee Member
+                          <cite title="Source Title">(IT 2014-18)</cite>
                         </figcaption>
                       </figure>
                     </div>
@@ -255,11 +256,11 @@ export default function About() {
                     <div className="card-body">
                       <figure>
                         <blockquote class="blockquote">
-                          <p>Vishal Kumar</p>
+                          <p>Piyush Kumar</p>
                         </blockquote>
                         <figcaption class="blockquote-footer">
-                          President
-                          <cite title="Source Title">(IT 2013-17)</cite>
+                          Executive Committee Member
+                          <cite title="Source Title">(ECE 2014-18)</cite>
                         </figcaption>
                       </figure>
                     </div>
