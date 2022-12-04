@@ -43,7 +43,9 @@ export default function About() {
               </div>
 
               <button type="button" class="btn btn-info text-white btn-sm mb-5">
-                Contact Us
+                <Link to="/contact" className="text-light">
+                  Contact Us
+                </Link>
               </button>
 
               {/* <a href="https://discord.gg/m6AMnhBXwn" target="blank">

@@ -4,6 +4,7 @@
 .home-anim {
   height: 90%;
   width: 80%;
+  --fa-animation-duration: 5s;
 }
 .sub-text {
   text-align: justify;

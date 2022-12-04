@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <div className="anim col-sm-6 img-fluid mx-auto d-flex">
             <img
-              className="home-anim rounded img-fluid mx-auto d-flex"
+              className="home-anim rounded img-fluid mx-auto d-flex fa-beat"
               src={graphic}
               alt=""
             />

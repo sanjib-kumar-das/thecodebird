@@ -67,16 +67,19 @@ export default function Footer() {
                 <h6 className=" fw-bold">The CODEBIRD</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr1" />
                 <p className="text-dark">
-                  <p className="just">
+                  <p className="just d-flex mx-auto">
                     Every student of UIT, irrespective of their stream or year
                     can make great things, CODEBIRD helps you to achieve that,
-                    for FREE !! 😀🏆
+                    for FREE !! 😀🏆 Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Eligendi, explicabo, aliquam beatae
+                    nostrum fuga libero eos odio molestiae nulla minima ipsa
+                    maxime maiores assumenda aliquid?
                   </p>
                 </p>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
-                <h6 className="text-uppercase fw-bold">Developer</h6>
+                <h6 className="text-uppercase fw-bold">Website Developer</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr2" />
                 <p>
                   <a
@@ -85,6 +88,7 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/sanjibkumardas-webdev/"
                     className="text-dark"
                   >
+                    Developed with ❤ <br />
                     Sanjib Kumar Das
                   </a>
                 </p>
@@ -99,6 +103,10 @@ export default function Footer() {
                     className="text-dark"
                   >
                     Prof. Sumit Gupta
+                    <br />
+                    Faculty Advisor, The Code Bird
+                    <br />
+                    Assistant Professor, CSE, UIT, BU
                   </a>
                 </p>
                 {/* ALAN AI */}
@@ -132,6 +140,11 @@ export default function Footer() {
                 <p>
                   <Link to="/events" className="text-dark">
                     Events
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/faq" className="text-dark">
+                    FAQs
                   </Link>
                 </p>
                 <p>
@@ -210,9 +223,9 @@ export default function Footer() {
           </div>
         </section>
 
-        <div className="text-center p-3 bg-muted text-secondary">
+        <div className="text-center p-3 bg-muted text-muted">
           © 2022 Copyright: &nbsp;
-          <a className="text-secondary" href="/">
+          <a className="text-muted" href="/">
             The CODEBIRD
           </a>
         </div>
